@@ -4,7 +4,7 @@ const AppDataSource = new DataSource({
   type: "postgres",
   port: 5432,
   username: process.env.DB_USERNAME,
-  password: "ralphralph",
+  password: "",
   database: "test",
   entities: ["dist/models/*.js"],
   migrations: ["dist/migrations/*.js"],
